@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "ModelController.h"
 #import "DataViewController.h"
+#import "RPMCameraLauncherViewController.h"
 
 @interface RootViewController ()
 

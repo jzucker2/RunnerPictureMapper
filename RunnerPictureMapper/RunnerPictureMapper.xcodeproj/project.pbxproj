@@ -16,6 +16,7 @@
 		97C279631A736F1D009D4B5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C279621A736F1D009D4B5C /* Images.xcassets */; };
 		97C279661A736F1D009D4B5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C279641A736F1D009D4B5C /* LaunchScreen.xib */; };
 		97C279721A736F1D009D4B5C /* RunnerPictureMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C279711A736F1D009D4B5C /* RunnerPictureMapperTests.m */; };
+		97C2797E1A747FAC009D4B5C /* RPMCameraLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C2797D1A747FAC009D4B5C /* RPMCameraLauncherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,9 @@
 		97C2796B1A736F1D009D4B5C /* RunnerPictureMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerPictureMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C279701A736F1D009D4B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C279711A736F1D009D4B5C /* RunnerPictureMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunnerPictureMapperTests.m; sourceTree = "<group>"; };
+		97C2797B1A73739B009D4B5C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		97C2797C1A747FAC009D4B5C /* RPMCameraLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPMCameraLauncherViewController.h; sourceTree = "<group>"; };
+		97C2797D1A747FAC009D4B5C /* RPMCameraLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPMCameraLauncherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +97,11 @@
 				97C279571A736F1D009D4B5C /* RootViewController.m */,
 				97C279591A736F1D009D4B5C /* DataViewController.h */,
 				97C2795A1A736F1D009D4B5C /* DataViewController.m */,
+				97C2797B1A73739B009D4B5C /* Constants.h */,
 				97C2795C1A736F1D009D4B5C /* ModelController.h */,
 				97C2795D1A736F1D009D4B5C /* ModelController.m */,
+				97C2797C1A747FAC009D4B5C /* RPMCameraLauncherViewController.h */,
+				97C2797D1A747FAC009D4B5C /* RPMCameraLauncherViewController.m */,
 				97C2795F1A736F1D009D4B5C /* Main.storyboard */,
 				97C279621A736F1D009D4B5C /* Images.xcassets */,
 				97C279641A736F1D009D4B5C /* LaunchScreen.xib */,
@@ -232,6 +239,7 @@
 				97C2795B1A736F1D009D4B5C /* DataViewController.m in Sources */,
 				97C279551A736F1D009D4B5C /* AppDelegate.m in Sources */,
 				97C2795E1A736F1D009D4B5C /* ModelController.m in Sources */,
+				97C2797E1A747FAC009D4B5C /* RPMCameraLauncherViewController.m in Sources */,
 				97C279521A736F1D009D4B5C /* main.m in Sources */,
 				97C279581A736F1D009D4B5C /* RootViewController.m in Sources */,
 			);

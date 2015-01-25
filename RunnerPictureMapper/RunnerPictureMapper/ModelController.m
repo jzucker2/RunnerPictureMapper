@@ -8,6 +8,7 @@
 
 #import "ModelController.h"
 #import "DataViewController.h"
+#import "Constants.h"
 
 /*
  A controller object that manages a simple model -- a collection of month names.
@@ -32,6 +33,7 @@
         // Create the data model.
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         _pageData = [[dateFormatter monthSymbols] copy];
+        _pageData = @[SETTINGS_VIEW_CONTROLLER, CAMERA_VIEW_CONTROLLER, MAP_VIEW_CONTROLLER];
     }
     return self;
 }
